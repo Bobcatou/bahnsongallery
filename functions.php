@@ -110,6 +110,18 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 ************************************/
 
 
+
+/**
+*Customer Support Admin Notice
+**/
+
+function howdy_message($translated_text, $text, $domain) {
+    $new_message = str_replace('Howdy', 'Call Listen to the Wind Media at 678-520-9914 if you have a question', $text);
+    return $new_message;
+}
+add_filter('gettext', 'howdy_message', 10, 3);
+
+
 // Declare WooCommerce support for your theme
 add_theme_support( 'woocommerce' );
 
