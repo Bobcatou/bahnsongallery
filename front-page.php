@@ -9,7 +9,7 @@ remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action('genesis_before_content_sidebar_wrap', 'lwm_home_gallery_image');
 	function lwm_home_gallery_image () {
 	echo '<div class="gallery_home_image">';			
-	echo '<img src="http://localhost/bahnsengallery-v1.dev/wp-content/themes/bahnsengallery/images/Gallery-With-New-Floor-025-126.jpeg">';
+	echo '<img src="http://localhost/bahnsengallery-v1/wp-content/themes/bahnsengallery/images/Gallery-With-New-Floor-025-126.jpeg">';
 	echo '</div>'; 
 }
 
