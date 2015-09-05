@@ -113,3 +113,46 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
 // Declare WooCommerce support for your theme
 add_theme_support( 'woocommerce' );
 
+//*Disables Woo Comments
+
+add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+function wcs_woo_remove_reviews_tab($tabs) {
+ unset($tabs['reviews']);
+ return $tabs;
+}
+
+
+//* 4 Widget Recent Items (Frontpage only)
+
+//* First Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_recent_column_one',
+	'name'          => __( 'First Column of Recent Items Section', 'bahnsengallery' ),
+	'description'   => __( 'Recent Items First Column', 'sample' ),
+) );
+//* Second Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_recent_column_two',
+	'name'          => __( 'Second Column of Recent Items Section', 'bahnsengallery' ),
+	'description'   => __( 'Recent Items Second Column', 'sample' ),
+) );
+//* Third Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_recent_column_three',
+	'name'          => __( 'Third Column of Recent Items Section', 'bahnsengallery' ),
+	'description'   => __( 'Recent Items Third Column', 'sample' ),
+) );
+genesis_register_sidebar( array(
+	'id'            => 'lwm_recent_column_four',
+	'name'          => __( 'Fourth Column of Recent Items Section', 'bahnsengallery' ),
+	'description'   => __( 'Recent Items Fourth Column', 'sample' ),
+) );
+
+
+
+//* Featured Carousel (Front page Only)
+genesis_register_sidebar( array(
+	'id'            => 'home_front_recent_art',
+	'name'          => __( 'Full Width Widget under Recent Items', 'bahnsengallery' ),
+	'description'   => __( 'Row-Full Width below Recent Items', 'bahnsengallery' ),
+) );
