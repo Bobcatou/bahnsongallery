@@ -173,7 +173,7 @@ genesis_register_sidebar( array(
 
 //* Featured Carousel (Front page Only)
 genesis_register_sidebar( array(
-	'id'            => 'home_front_recent_art',
-	'name'          => __( 'Full Width Widget under Recent Items', 'bahnsengallery' ),
+	'id'            => 'lwm_featured',
+	'name'          => __( 'Full Width Widget Above Footer', 'bahnsengallery' ),
 	'description'   => __( 'Row-Full Width below Recent Items', 'bahnsengallery' ),
 ) );
