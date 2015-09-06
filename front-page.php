@@ -5,7 +5,12 @@ add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_c
 
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 
-//* Home image of Gallery
+//*Move Main Nav above image
+remove_action( 'genesis_after_header', 'genesis_do_nav' );
+add_action( 'genesis_before_content_sidebar_wrap', 'genesis_do_nav' );
+
+
+//* Home Image of Gallery
 add_action('genesis_before_content_sidebar_wrap', 'lwm_home_gallery_image');
 	function lwm_home_gallery_image () {
 	echo '<div class="gallery_home_image">';			
