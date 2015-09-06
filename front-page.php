@@ -19,25 +19,14 @@ add_action('genesis_before_content_sidebar_wrap', 'lwm_home_gallery_image');
 }
 
 
-//* Recent Art
-add_action( 'genesis_before_content', 'recent_art', 20 );
-	function recent_art() {
-	echo '<div class="lwm_recent_art">';
-	echo '<div class="wrap recent_art_area">';
-		genesis_widget_area( 'home_front_recent_art', array(
-			'before' => '<div class="recent_art_home">',
-			'after' => '</div>',
-	) );
-
-}
 
 
-//* Hooks Widgets for Recent Art 3 widgeth section
+//* Hooks Widgets for Recent Art 3 widget section
 add_action( 'genesis_before_content', 'lwm_recent_items', 9 );
 	function lwm_recent_items() {
 	echo '<div class="lwm_recent_items_block">';
 	echo '<div class="wrap lwm_recent_samples">';
-    echo '<h2>Recent Items</h2>';
+    echo '<h2>Recent Arrivals</h2>';
 
 		genesis_widget_area( 'lwm_recent_column_one', array(
 			'before' => '<div class="demos_column1">',
