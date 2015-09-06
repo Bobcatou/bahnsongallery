@@ -122,13 +122,6 @@ function howdy_message($translated_text, $text, $domain) {
 add_filter('gettext', 'howdy_message', 10, 3);
 
 
-//*Move Main Nav above image
-remove_action( 'genesis_after_header', 'genesis_do_nav' );
-add_action( 'genesis_before_content_sidebar_wrap', 'genesis_do_nav' );
-
-
-
-
 // Declare WooCommerce support for your theme
 add_theme_support( 'woocommerce' );
 
