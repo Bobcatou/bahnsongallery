@@ -1276,14 +1276,14 @@ li.comment {
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #333;
+	background-color: #fff;
 	clear: both;
 	padding-top: 40px;
 }
 
 .footer-widgets,
 .footer-widgets a {
-	color: #999;
+	color: #333;
 }
 
 .footer-widgets input {
