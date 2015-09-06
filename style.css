@@ -878,7 +878,8 @@ img.alignright,
 }
 
 .site-header .wrap {
-	padding: 0;
+	padding: 0px;
+	margin-top: 25px;
 }
 
 /* ## Title Area
