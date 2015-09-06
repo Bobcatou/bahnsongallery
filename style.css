@@ -878,7 +878,7 @@ img.alignright,
 }
 
 .site-header .wrap {
-	padding: 40px 0;
+	padding: 0;
 }
 
 /* ## Title Area
@@ -961,7 +961,7 @@ img.alignright,
 .genesis-nav-menu a {
 	color: #333;
 	display: block;
-	padding: 30px 24px;
+	padding: 0px 24px 20px 24px;
 }
 
 .genesis-nav-menu a:hover,
