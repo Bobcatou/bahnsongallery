@@ -1396,7 +1396,7 @@ li.comment {
 /* # LWM Designs
 ---------------------------------------------------------------------------------------------------- */
 
-
+/*Makes home image full width*/
 .gallery_home_image img {width: 100%;}
 
 
@@ -1404,11 +1404,13 @@ li.comment {
 .home .site-inner {max-width: none;}
 
 
+/*Figure why this is here*/
 .images {width: 400px; float: left;}
 
 
+/*Clears float on product pages so related products appear underneath page product*/
 
-
+.related.products {clear:both;}
 
 
 /* # Recent Items Block
@@ -1420,7 +1422,7 @@ li.comment {
 .lwm_prod-1,
 .lwm_prod-2, 
 .lwm_prod-3, 
-.lwm_prod-4 {float: left; width: 22%; margin-left: 3%;}
+.lwm_prod-4 {float: left; width: 23%; margin-left: 2%;}
 
 
 
