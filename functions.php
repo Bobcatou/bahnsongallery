@@ -130,6 +130,13 @@ function sp_search_text( $text ) {
 
 
 
+// Add Accessibility support
+add_theme_support( 'genesis-accessibility', array( 'headings', 'drop-down-menu',  'search-form', 'skip-links', 'rems' ) );
+
+
+
+
+
 
 // Declare WooCommerce support for your theme
 add_theme_support( 'woocommerce' );
