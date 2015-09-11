@@ -53,9 +53,11 @@ add_action( 'genesis_before_content', 'lwm_recent_items', 9 );
 add_action( 'genesis_before_content', 'lwm_featured_items', 20 );
 	function lwm_featured_items() {
 	echo '<div class="lwm_featured_block">';
+	echo '<div class="wrap lwm_featured_samples">';
 		genesis_widget_area( 'lwm_featured', array(
 			'before' => '<div class="lwm_special_items">',
 			'after' => '</div>',	) );
+	echo '</div>';
 	echo '</div>';
 
 }
