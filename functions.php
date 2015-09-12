@@ -197,7 +197,7 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 16;' ), 20 )
 
 
 
-//* Featured Carousel (Front page Only)
+//* Widget area under main display image 1 (Front page Only)
 genesis_register_sidebar( array(
 	'id'            => 'lwm_featured',
 	'name'          => __( 'Full Width Area Below Display Image', 'bahnsengallery' ),
