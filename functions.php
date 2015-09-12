@@ -150,7 +150,18 @@ function custom_call_for_price() {
      return 'Call For Price';
 }
 
+/**
+ * Changes Title of Shop page
+ **/
+add_f
+add_filter( 'woocommerce_page_title', 'woo_shop_page_title');
 
+function woo_shop_page_title( $page_title ) {
+	
+	if( 'Shop' == $page_title) {
+		return "Browse Our Items";
+	}
+}
 
 
 //* 4 Widget Recent Items (Frontpage only)
