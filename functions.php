@@ -141,6 +141,18 @@ function wcs_woo_remove_reviews_tab($tabs) {
 }
 
 
+/**
+ * This code should be added to functions.php of your theme
+ **/
+add_filter('woocommerce_empty_price_html', 'custom_call_for_price');
+
+function custom_call_for_price() {
+     return 'Call For Price';
+}
+
+
+
+
 //* 4 Widget Recent Items (Frontpage only)
 
 //* First Column
