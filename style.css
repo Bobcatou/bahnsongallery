@@ -1488,6 +1488,9 @@ li.comment {
 
 .related.products {clear:both;}
 
+.related.products h2 {font-weight:100;}
+
+
 
 /* # Recent Items Block
 ---------------------------------------------------------------------------------------------------- */
