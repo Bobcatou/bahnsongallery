@@ -1503,24 +1503,6 @@ li.comment {
 
 
 
-.lwm_prod-1,
-.lwm_prod-2, 
-.lwm_prod-3, 
-.lwm_prod-4 {float: left; width: 23%; margin-left: 2%;}
-
-
-
-.lwm_recent_items_block {background: #fff; padding-top: 10px;}
-
-.lwm_recent_items_block h2 {font-weight: 100;}
-
-.lwm_prod-1 img,
-.lwm_prod-2 img, 
-.lwm_prod-3 img, 
-.lwm_prod-4 img {width: 72%;}
-
-
-
 
 
 /* # Media Queries
