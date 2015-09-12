@@ -153,7 +153,6 @@ function custom_call_for_price() {
 /**
  * Changes Title of Shop page
  **/
-add_f
 add_filter( 'woocommerce_page_title', 'woo_shop_page_title');
 
 function woo_shop_page_title( $page_title ) {
@@ -162,6 +161,12 @@ function woo_shop_page_title( $page_title ) {
 		return "Browse Our Items";
 	}
 }
+
+
+
+// Display 16 instead of default of 4 products per page. 
+add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 16;' ), 20 );
+
 
 
 //* 4 Widget Recent Items (Frontpage only)
