@@ -203,3 +203,11 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Full Width Area Below Display Image', 'bahnsengallery' ),
 	'description'   => __( 'Area below display photo on homepage', 'bahnsengallery' ),
 ) );
+
+//* Widget area under main display image 1 (Front page Only)
+genesis_register_sidebar( array(
+	'id'            => 'lwm_featured-row2',
+	'name'          => __( 'Full Width Area Below Display Image Row 2', 'bahnsengallery' ),
+	'description'   => __( 'Second Row Area below display photo on homepage', 'bahnsengallery' ),
+) );
+
