@@ -199,7 +199,7 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 16;' ), 20 )
 
 //* Widget area under main display image 1 (Front page Only)
 genesis_register_sidebar( array(
-	'id'            => 'lwm_featured',
+	'id'            => 'lwm_featured-row1',
 	'name'          => __( 'Full Width Area Below Display Image', 'bahnsengallery' ),
 	'description'   => __( 'Area below display photo on homepage', 'bahnsengallery' ),
 ) );
