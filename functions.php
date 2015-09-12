@@ -172,28 +172,28 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 16;' ), 20 )
 //* 4 Widget Recent Items (Frontpage only)
 
 //* First Column
-genesis_register_sidebar( array(
-	'id'            => 'lwm_recent_column_one',
-	'name'          => __( 'First Column of Recent Items Section', 'bahnsengallery' ),
-	'description'   => __( 'Recent Items First Column', 'sample' ),
-) );
+//genesis_register_sidebar( array(
+//	'id'            => 'lwm_recent_column_one',
+//	'name'          => __( 'First Column of Recent Items Section', 'bahnsengallery' ),
+//	'description'   => __( 'Recent Items First Column', 'sample' ),
+//) );
 //* Second Column
-genesis_register_sidebar( array(
-	'id'            => 'lwm_recent_column_two',
-	'name'          => __( 'Second Column of Recent Items Section', 'bahnsengallery' ),
-	'description'   => __( 'Recent Items Second Column', 'sample' ),
-) );
+//genesis_register_sidebar( array(
+//	'id'            => 'lwm_recent_column_two',
+//	'name'          => __( 'Second Column of Recent Items Section', 'bahnsengallery' ),
+//	'description'   => __( 'Recent Items Second Column', 'sample' ),
+//) );
 //* Third Column
-genesis_register_sidebar( array(
-	'id'            => 'lwm_recent_column_three',
-	'name'          => __( 'Third Column of Recent Items Section', 'bahnsengallery' ),
-	'description'   => __( 'Recent Items Third Column', 'sample' ),
-) );
-genesis_register_sidebar( array(
-	'id'            => 'lwm_recent_column_four',
-	'name'          => __( 'Fourth Column of Recent Items Section', 'bahnsengallery' ),
-	'description'   => __( 'Recent Items Fourth Column', 'sample' ),
-) );
+//genesis_register_sidebar( array(
+//	'id'            => 'lwm_recent_column_three',
+//	'name'          => __( 'Third Column of Recent Items Section', 'bahnsengallery' ),
+//	'description'   => __( 'Recent Items Third Column', 'sample' ),
+//) );
+//genesis_register_sidebar( array(
+//	'id'            => 'lwm_recent_column_four',
+//	'name'          => __( 'Fourth Column of Recent Items Section', 'bahnsengallery' ),
+//	'description'   => __( 'Recent Items Fourth Column', 'sample' ),
+//) );
 
 
 
