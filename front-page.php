@@ -52,7 +52,7 @@ add_action('genesis_before_content_sidebar_wrap', 'lwm_home_gallery_image');
 //* Hooks Featured Products widget. (Above Footer area)
 add_action( 'genesis_before_content', 'lwm_featured_items', 15 );
 	function lwm_featured_items() {
-	echo '<div class="lwm_featured_block">';
+	echo '<div class="lwm_featured_block-row1">';
 	echo '<div class="wrap lwm_featured_samples">';
 	echo '<h2>Featured Artwork</h2>';
 		genesis_widget_area( 'lwm_featured', array(
