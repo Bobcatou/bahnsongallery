@@ -1497,12 +1497,17 @@ li.comment {
 .footer-widgets {border-top: 1px solid #333; padding-top: 20px;}
 
 
-/* # Recent Items Block
+/* # Styling for first and second row widget area under display image
 ---------------------------------------------------------------------------------------------------- */
+.lwm_featured_block-row1 h2,
+.lwm_featured_block-row2 h2 {margin: 20px 0px 10px;}
 
 
-
-
+/* # Center Content under image in ALL multi display sections
+---------------------------------------------------------------------------------------------------- */
+ul.products li{
+    text-align: center
+}
 
 
 /* # Media Queries
