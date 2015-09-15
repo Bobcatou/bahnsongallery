@@ -211,3 +211,22 @@ genesis_register_sidebar( array(
 	'description'   => __( 'Second Row Area below display photo on homepage', 'bahnsengallery' ),
 ) );
 
+
+//* Blog, Testimonial Row
+
+//* 1st Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_featured-row3_left',
+	'name'          => __( 'Row 3 - Left Side', 'sample' ),
+	'description'   => __( 'Initial Build Coded 1/3 width', 'sample' ),
+) );
+
+genesis_register_sidebar( array(
+	'id'            => 'lwm_featured-row3_right',
+	'name'          => __( 'Row 3 - Right Side', 'sample' ),
+	'description'   => __( 'Initial Build Coded 2/3 width', 'sample' ),
+) );
+
+
+
+
