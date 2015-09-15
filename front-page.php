@@ -80,6 +80,35 @@ add_action( 'genesis_before_content', 'lwm_featured_items_row2', 15 );
 
 
 
+//* Third Row-2 Widget 
+
+//* Hooks both Widgets
+add_action( 'genesis_before_content', 'lwm_featured_items_row3_left', 15 );
+	function lwm_featured_items_row3_left() {
+	echo '<div class="lwm_featured_block-row3_left">';
+	echo '<div class="wrap lwm_featured_samples-row3_left">';
+		genesis_widget_area( 'lwm_featured-row3_left', array(
+			'before' => '<div class="lwm_special_items-row3_left">',
+			'after' => '</div>',	) );
+	echo '</div>';
+	echo '</div>';
+
+}
+
+//* Hooks both Widgets
+add_action( 'genesis_before_content', 'lwm_featured_items_row3_right', 15 );
+	function lwm_featured_items_row3_right() {
+	echo '<div class="lwm_featured_block-row3_right">';
+	echo '<div class="wrap lwm_featured_samples-row3_right">';
+		genesis_widget_area( 'lwm_featured-row3_right', array(
+			'before' => '<div class="lwm_special_items-row3_right">',
+			'after' => '</div>',	) );
+	echo '</div>';
+	echo '</div>';
+
+}
+
+
 
 
 
