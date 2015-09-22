@@ -142,7 +142,7 @@ function wcs_woo_remove_reviews_tab($tabs) {
 
 
 /**
- * This code should be added to functions.php of your theme
+ * If no price is added, a box stating "Call for Price" will appear
  **/
 add_filter('woocommerce_empty_price_html', 'custom_call_for_price');
 
