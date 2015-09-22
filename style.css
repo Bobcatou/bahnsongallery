@@ -1514,8 +1514,15 @@ ul.products li{
 /* Third Row - 2 Widget 
 ---------------------------------------------------------------------------------------------------- */
 
-.lwm_featured_samples-row3_left,
-.lwm_featured_samples-row3_right {width: 45%; margin; 0;}
+
+
+.lwm_3row_left {width: 60%; display: inline-block;}
+
+.lwm_3row_right {width: 30%; margin-left: 10%; display: inline-block;}
+
+
+
+
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
