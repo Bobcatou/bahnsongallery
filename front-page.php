@@ -20,35 +20,6 @@ add_action('genesis_before_content_sidebar_wrap', 'lwm_home_gallery_image');
 
 
 
-
-//* Hooks Widgets for Recent Art 4 widget section
-//add_action( 'genesis_before_content', 'lwm_recent_items', 9 );
-//	function lwm_recent_items() {
-//	echo '<div class="lwm_recent_items_block">';
-//	echo '<div class="wrap lwm_recent_samples">';
-//    echo '<h2>Recent Arrivals</h2>';
-//
-//		genesis_widget_area( 'lwm_recent_column_one', array(
-//			'before' => '<div class="demos_column1">',
-//			'after' => '</div>',
-//	) );
-//			genesis_widget_area( 'lwm_recent_column_two', array(
-//			'before' => '<div class="demos_column2">',
-//			'after' => '</div>',
-//	) );
-//			genesis_widget_area( 'lwm_recent_column_three', array(
-//			'before' => '<div class="demos_column3">',
-//			'after' => '</div>',
-//	) );
-//			genesis_widget_area( 'lwm_recent_column_four', array(
-//			'before' => '<div class="demos_column4">',
-//			'after' => '</div>',
-//	) );
-	
-//	echo '</div>';
-//	echo '</div>';  
-//}
-
 //* Hooks Featured Products widget. (Above Footer area)
 add_action( 'genesis_before_content', 'lwm_featured_items', 15 );
 	function lwm_featured_items() {
@@ -80,38 +51,9 @@ add_action( 'genesis_before_content', 'lwm_featured_items_row2', 15 );
 
 
 
-//* Third Row-2 Widget 
-
-//* Hooks both Widgets
-//add_action( 'genesis_before_content', 'lwm_featured_items_row3_left', 15 );
-//	function lwm_featured_items_row3_left() {
-//	echo '<div class="lwm_featured_block-row3_left">';
-//	echo '<div class="wrap lwm_featured_samples-row3_left">';
-//		genesis_widget_area( 'lwm_featured-row3_left', array(
-//			'before' => '<div class="lwm_special_items-row3_left">',
-//			'after' => '</div>',	) );
-//	echo '</div>';
-//	echo '</div>';
-
-//}
-
-//* Hooks both Widgets
-//add_action( 'genesis_before_content', 'lwm_featured_items_row3_right', 15 );
-//	function lwm_featured_items_row3_right() {
-//	echo '<div class="lwm_featured_block-row3_right">';
-//	echo '<div class="wrap lwm_featured_samples-row3_right">';
-//		genesis_widget_area( 'lwm_featured-row3_right', array(
-///			'before' => '<div class="lwm_special_items-row3_right">',
-//			'after' => '</div>',	) );
-//	echo '</div>';
-//	echo '</div>';
-
-//}
-
-
 
 //* Third Row Widgets Left and Right
-add_action( 'genesis_before_content_sidebar_wrap', 'lwm_third_row_content', 15 );
+add_action( 'genesis_before_content', 'lwm_third_row_content', 15 );
 	function lwm_third_row_content() {
 	echo '<div class="lwm_third_row_block">';
 	echo '<div class="wrap third_row_widgets">';
