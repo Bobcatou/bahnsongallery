@@ -212,19 +212,19 @@ genesis_register_sidebar( array(
 ) );
 
 
-//* Blog, Testimonial Row
+//* Third Row Widgets Left and Right
 
 //* 1st Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_featured-row3_left',
 	'name'          => __( 'Row 3 - Left Side', 'sample' ),
-	'description'   => __( 'Initial Build Coded 1/3 width', 'sample' ),
+	'description'   => __( 'Initial Build Coded 1/3 width', 'bahnsengallery' ),
 ) );
-
+//* 2nd Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_featured-row3_right',
 	'name'          => __( 'Row 3 - Right Side', 'sample' ),
-	'description'   => __( 'Initial Build Coded 2/3 width', 'sample' ),
+	'description'   => __( 'Initial Build Coded 2/3 width', 'bahnsengallery' ),
 ) );
 
 
