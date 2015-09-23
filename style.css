@@ -1492,7 +1492,10 @@ li.comment {
 /*Related products on product page */
 .related.products h2 {font-weight:100;}
 
-
+/*Product page title */
+h1.product_title.entry-title {
+    font-weight: 100;
+}
 
 .footer-widgets {border-top: 1px solid #333; padding-top: 20px;}
 
@@ -1501,6 +1504,14 @@ li.comment {
 ---------------------------------------------------------------------------------------------------- */
 .lwm_featured_block-row1 h2,
 .lwm_featured_block-row2 h2 {margin: 20px 0px 10px;}
+
+
+
+#enhancetextwidget-7 .products li {
+    min-height: 600px;
+}
+
+
 
 
 /* # Center Content titles under image in ALL multi display sections
