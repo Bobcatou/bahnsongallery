@@ -139,13 +139,6 @@ function wcs_woo_remove_reviews_tab($tabs) {
  unset($tabs['reviews']);
  return $tabs;
 }
-//*Disables Woo Description 
-
-add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_description_tab', 98 );
-function wcs_woo_remove_description_tab($tabs) {
- unset($tabs['description']);
- return $tabs;
-}
 
 /**
  * If no price is added, a box stating "Call for Price" will appear
