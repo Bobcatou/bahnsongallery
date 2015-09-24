@@ -39,7 +39,7 @@ add_action( 'genesis_before_content', 'lwm_featured_items_row2', 15 );
 	function lwm_featured_items_row2() {
 	echo '<div class="lwm_featured_block-row2">';
 	echo '<div class="wrap lwm_featured_samples-row2">';
-	echo '<h2>Recent Arrived Artwork</h2>';
+	echo '<h2>Recently Arrived Artwork</h2>';
 		genesis_widget_area( 'lwm_featured-row2', array(
 			'before' => '<div class="lwm_special_items-row2">',
 			'after' => '</div>',	) );
