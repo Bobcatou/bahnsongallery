@@ -70,6 +70,8 @@ add_action( 'genesis_before_content', 'lwm_third_row_content', 15 );
 }
 
 
+
+
 //* Run the Genesis loop
 genesis();
 
