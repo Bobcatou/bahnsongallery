@@ -1499,6 +1499,14 @@ h1.product_title.entry-title {
 .footer-widgets {border-top: 1px solid #333; padding-top: 20px;}
 
 
+
+.woocommerce ul.products li.product h3,
+.woocommerce-page ul.products li.product h3 {
+    height: 50px;
+}
+
+
+
 /* # Styling for first and second row widget area under display image
 ---------------------------------------------------------------------------------------------------- */
 .lwm_featured_block-row1 h2,
