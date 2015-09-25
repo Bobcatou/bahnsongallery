@@ -246,4 +246,3 @@ function woo_product_categories_dropdown( $atts ) {
 	return ob_get_clean();
 	
 }
-
