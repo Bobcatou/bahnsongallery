@@ -15,6 +15,7 @@ function genesis_sample_google_fonts() {
 
 }
 
+
 // Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 
@@ -246,3 +247,9 @@ function woo_product_categories_dropdown( $atts ) {
 	return ob_get_clean();
 	
 }
+
+
+
+
+
+
