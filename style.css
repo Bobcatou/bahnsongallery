@@ -1498,24 +1498,18 @@ h1.product_title.entry-title {
 
 .footer-widgets {border-top: 1px solid #333; padding-top: 20px;}
 
-a.added_to_cart.wc-forward { 
-    bottom: 0; 
-    position: absolute; 
-    display: block; 
-    bottom: 0px;
+
+/* Front Page product design
+---------------------------------------------------------------------------------------------------- */
+
+.home.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product,
+.home.woocommerce-page.columns-5 ul.products li.product, .woocommerce.columns-5 ul.products li.product {
+	border: 1px solid #999;
+	padding: 2%;
 }
 
-.woocommerce ul.products li.product, 
-.woocommerce-page ul.products li.product { 
-    min-height: 295px !important; 
-    margin-bottom:10px; 
-}
 
-a.button.add_to_cart_button, 
-a.button.product_type_simple { 
-    bottom: 30px; 
-    position: absolute; 
-}
+
 
 
 /* # Styling for first and second row widget area under display image
@@ -1545,7 +1539,7 @@ ul.products li{
 .lwm_3row_right {width: 40%; margin-left: 10%; display: inline-block;}
 
 
-
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product
 
 
 /* # Media Queries
