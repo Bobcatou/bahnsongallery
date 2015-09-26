@@ -14,7 +14,7 @@ add_action( 'genesis_before_content_sidebar_wrap', 'genesis_do_nav' );
 add_action('genesis_before_content_sidebar_wrap', 'lwm_home_gallery_image');
 	function lwm_home_gallery_image () {
 	echo '<div class="gallery_home_image">';			
-	echo '<img src="http://www.listentothewindmedia.com/dev/bahnsengallery-v1/wp-content/themes/bahnsengallery/images/bahnsen_gallery_home_1600px.jpg">';
+	echo '<img src="http://localhost/bahnsengallery-v1/wp-content/themes/bahnsengallery/images/bahnsen_gallery_home_1600px.jpg">';
 	echo '</div>'; 
 }
 
