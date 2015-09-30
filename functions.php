@@ -14,11 +14,6 @@ function genesis_sample_google_fonts() {
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700', array(), CHILD_THEME_VERSION );
 
 }
-add_action( 'wp_enqueue_scripts', 'customprefix_load_styles' );
-function customprefix_load_styles() {
-    wp_enqueue_script( 'script-name',  get_stylesheet_directory_uri() . '/js/woo_height_align.js',  array( 'jquery' ), '1.0.0' );
-}
-
 
 // Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
@@ -204,54 +199,6 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Row 3 - Right Side', 'sample' ),
 	'description'   => __( 'Initial Build Coded 2/3 width', 'bahnsengallery' ),
 ) );
-
-
-/**
- * WooCommerce Extra Feature
- * --------------------------
- *
- * Register a shortcode that creates a product categories dropdown list
- *
- * Use: [product_categories_dropdown orderby="title" count="0" hierarchical="0"]
- *
- */
-add_shortcode( 'product_categories_dropdown', 'woo_product_categories_dropdown' );
-
-function woo_product_categories_dropdown( $atts ) {
-
-  extract(shortcode_atts(array(
-    'count'         => '0',
-    'hierarchical'  => '0',
-    'orderby' 	    => ''
-    ), $atts));
-	
-	ob_start();
-	
-	$c = $count;
-	$h = $hierarchical;
-	$o = ( isset( $orderby ) && $orderby != '' ) ? $orderby : 'order';
-		
-	// Stuck with this until a fix for http://core.trac.wordpress.org/ticket/13258
-	woocommerce_product_dropdown_categories( $c, $h, 0, $o );
-
-	?>
-	<script type='text/javascript'>
-	/* <![CDATA[ */
-		var product_cat_dropdown = document.getElementById("dropdown_product_cat");
-		function onProductCatChange() {
-			if ( product_cat_dropdown.options[product_cat_dropdown.selectedIndex].value !=='' ) {
-				location.href = "<?php echo home_url(); ?>/?product_cat="+product_cat_dropdown.options[product_cat_dropdown.selectedIndex].value;
-			}
-		}
-		product_cat_dropdown.onchange = onProductCatChange;
-	/* ]]> */
-	</script>
-	<?php
-	
-	return ob_get_clean();
-	
-}
-
 
 
 
