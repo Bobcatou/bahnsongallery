@@ -30,10 +30,10 @@ equalheight = function(container){
     }
 
     $(window).load(function() {
-      equalheight('.woocommerce-page ul.products > li.product, .home .product_list_widget > li');
+      equalheight('.home ul.products > li.product, .home .product_list_widget > li');
     });
 
 
     $(window).resize(function(){
-      equalheight('.woocommerce-page ul.products > li.product, .home .product_list_widget > li');
+      equalheight('.home ul.products > li.product, .home .product_list_widget > li');
     });
