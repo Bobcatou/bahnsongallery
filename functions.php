@@ -14,6 +14,10 @@ function genesis_sample_google_fonts() {
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700', array(), CHILD_THEME_VERSION );
 
 }
+add_action( 'wp_enqueue_scripts', 'customprefix_load_styles' );
+function customprefix_load_styles() {
+    wp_enqueue_script( 'script-name',  get_stylesheet_directory_uri() . '/js/woo_height_align.js',  array( 'jquery' ), '1.0.0' );
+}
 
 
 // Add HTML5 markup structure
