@@ -1539,10 +1539,7 @@ ul.products li{
 .lwm_3row_right {width: 40%; margin-left: 10%; display: inline-block;}
 
 
-.woocommerce ul.products li.product {min-height: 1000px;}
-
-
-
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product
 
 
 /* # Media Queries
