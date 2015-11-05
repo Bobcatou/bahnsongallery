@@ -1536,9 +1536,9 @@ ul.products li{
 
 
 
-.lwm_3row_left {width: 50%; display: inline-block;}
+.lwm_3row_left {width: 50%; float: left;}
 
-.lwm_3row_right {width: 40%; margin-left: 10%; display: inline-block;}
+.lwm_3row_right {width: 40%; margin-left: 10%; float: left;}
 
 
 .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product
