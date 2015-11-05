@@ -750,6 +750,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 .entry-title a,
 .sidebar .widget-title a {
 	color: #333;
+	text-decoration: none;
 }
 
 .entry-title a:hover,
