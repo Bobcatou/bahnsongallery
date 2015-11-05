@@ -192,12 +192,14 @@ genesis_register_sidebar( array(
 //* 1st Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_featured-row3_left',
-	'name'          => 'Row 3 - Left Side', 'sample',
-	'description'   => 'Initial Build Coded 1/3 width', 'bahnsengallery',
+	'name'          => __( 'Row 3 - Left Side', 'sample' ),
+	'description'   => __( 'Initial Build Coded 1/3 width', 'bahnsengallery' ),
 ) );
 //* 2nd Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_featured-row3_right',
-	'name'          => 'Row 3 - Right Side', 'sample',
-	'description'   => 'Initial Build Coded 2/3 width', 'bahnsengallery',
+	'name'          => __( 'Row 3 - Right Side', 'sample' ),
+	'description'   => __( 'Initial Build Coded 2/3 width', 'bahnsengallery' ),
 ) );
+
+
