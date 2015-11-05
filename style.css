@@ -758,9 +758,10 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 }
 
 .widget-title {
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 30px;
+	font-size: 3.5rem;
 	margin-bottom: 20px;
+	font-weight: 100;
 }
 
 /* ## WordPress
