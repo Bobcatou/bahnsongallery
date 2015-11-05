@@ -765,6 +765,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 	font-weight: 100;
 }
 
+
 /* ## WordPress
 --------------------------------------------- */
 
@@ -876,8 +877,8 @@ img.alignright,
 }
 
 .featured-content .entry-title {
-	font-size: 20px;
-	font-size: 2rem;
+	font-size: 25px;
+	font-size: 2.5rem;
 }
 
 
