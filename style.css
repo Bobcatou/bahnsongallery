@@ -1502,7 +1502,7 @@ h1.product_title.entry-title {
 /* Front Page product design
 ---------------------------------------------------------------------------------------------------- */
 
-.home.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product,
+.home.woocommerce-page.columns-4 ul.products li.product, .woocommerce.columns-4 ul.products li.product,
 .home.woocommerce-page.columns-5 ul.products li.product, .woocommerce.columns-5 ul.products li.product {
 	border: 1px solid #999;
 	padding: 2%;
