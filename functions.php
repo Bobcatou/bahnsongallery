@@ -129,11 +129,13 @@ function sp_search_text( $text ) {
 	return esc_attr( 'Search our gallery' );
 }
 
-// Declare WooCommerce support for your theme
-add_theme_support( 'woocommerce' );
+// Declare WooCommerce support for your theme using gitcode
+//add_theme_support( 'woocommerce' );
+
+// Declare WooCommerce support for your theme using Genesis Connect Plugin for Woocommerce
+add_theme_support( 'genesis-connect-woocommerce' );
 
 //*Disables Woo Comments
-
 add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
 function wcs_woo_remove_reviews_tab($tabs) {
  unset($tabs['reviews']);
