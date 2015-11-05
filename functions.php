@@ -129,6 +129,17 @@ function sp_search_text( $text ) {
 	return esc_attr( 'Search our gallery' );
 }
 
+//* Customize footer credits
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
+function sp_footer_creds_text() {
+   echo '<div class="lwm_credits"><p>';
+    echo 'Copyright &copy; ';
+    echo date('Y');
+    echo ' &middot; <a href="http://bahnsengallery.com">Bahnsen Gallery</a> &middot; Built by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
+    echo '</p></div>';
+}
+
+
 // Declare WooCommerce support for your theme using gitcode
 //add_theme_support( 'woocommerce' );
 
@@ -201,5 +212,9 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Row 3 - Right Side', 'sample' ),
 	'description'   => __( 'Initial Build Coded 2/3 width', 'bahnsengallery' ),
 ) );
+
+
+
+
 
 
