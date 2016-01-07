@@ -738,8 +738,8 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 --------------------------------------------- */
 
 .archive-title {
-	font-size: 20px;
-	font-size: 2rem;
+	font-size: 40px;
+	font-size: 4rem;
 }
 
 .entry-title {
