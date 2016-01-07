@@ -698,6 +698,11 @@ th {
 	margin-bottom: 0;
 }
 
+.term-description img.alignleft {
+	margin-bottom: 0 !important;
+}
+
+
 /* ## Search Form
 --------------------------------------------- */
 
