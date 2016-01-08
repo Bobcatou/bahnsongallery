@@ -215,6 +215,7 @@ genesis_register_sidebar( array(
 
 
 
-
+add_filter( 'woocommerce_countries_base_postcode', create_function( '', 'return "45387";' ) );
+add_filter( 'woocommerce_countries_base_city', create_function( '', 'return "YELLOW SPRINGS";' ) );
 
 
