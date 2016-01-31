@@ -970,6 +970,39 @@ img.alignright,
 	margin-top: 25px;
 }
 
+
+
+/* # Axel Bahnsen badge styling
+------------------------------ */
+
+section#black-studio-tinymce-10,
+section#search-3 {
+    display: inline-block;
+    float: left;
+}
+
+section#black-studio-tinymce-10 {
+	padding-right: 237px;
+}
+
+
+section#black-studio-tinymce-10 img {
+	margin: 0;
+}
+
+section#black-studio-tinymce-10 p {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 /* ## Title Area
 --------------------------------------------- */
 
