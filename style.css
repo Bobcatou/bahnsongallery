@@ -1218,6 +1218,10 @@ section#black-studio-tinymce-10 p {
 .nav-primary {
 	background-color: #fff;
 	text-align: right;
+	border-bottom: 1px dotted #515151;
+    border-top: 1px dotted #515151;
+    padding-top: 20px;
+
 }
 
 .nav-primary .genesis-nav-menu a {
