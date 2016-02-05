@@ -359,6 +359,15 @@ img {
 	border: 1px solid #999;
 }
 
+.gallery img {
+/*border none for social media icons in header */
+	border: none !important;
+	height: auto;
+/*	padding: 4px; */
+}
+
+
+
 /* ## Forms
 --------------------------------------------- */
 
@@ -982,7 +991,7 @@ section#search-3 {
 }
 
 section#black-studio-tinymce-10 {
-	padding-right: 237px;
+	padding-right: 215px;
 }
 
 
@@ -997,9 +1006,18 @@ section#black-studio-tinymce-10 p {
 }
 
 
+.lwm-ab-logo, .lwm-social {
+	display: inline-block;
+	vertical-align: top;
+}
 
+.fbook {
+	padding: 6px 0;
+}
 
-
+.lwm-ab-logo {
+	margin-right: 15px;
+}
 
 
 
