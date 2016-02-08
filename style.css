@@ -11,9 +11,7 @@ License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 */
 
-
-
-
+/*test*/
 
 
 /* # Table of Contents
@@ -695,6 +693,7 @@ th {
 	font-size: 1.6rem;
 	margin-bottom: 20px;
 	padding: 0px;
+	padding-top: 50px;
 }
 
 .author-box-title {
