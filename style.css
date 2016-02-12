@@ -2029,5 +2029,6 @@ ul.products li{
 	    border-right: 1px solid #cbcbcb;
 	    padding-right: 3rem;
 	}
-
+/*fixes issue of height on contact page*/
+main#genesis-content {height: 100% !important;} 
 }
