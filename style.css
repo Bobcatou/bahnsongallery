@@ -1616,6 +1616,16 @@ ul.products li{
 
 .footer-widgets {border-top: 1px solid #d5d5d5; padding-top: 20px;}
 
+/* Local Artist
+---------------------------------------------------------------------------------------------------- */
+
+#artist-charli h4 {
+	font-size: 2.5em;
+	font-style: italic;
+}
+
+
+
 
 
 /* # Media Queries
