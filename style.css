@@ -557,7 +557,7 @@ th {
 .content {
 	float: right;
 	width: 800px;
-	border-right: 1px dotted #515151;
+/*	border-right: 1px dotted #515151;*/
 }
 
 .content-sidebar .content,
@@ -2012,3 +2012,11 @@ ul.products li{
 
 }
 
+@media only screen and (min-width: 1024px) {
+
+	.content-sidebar .content-sidebar-wrap .content {
+	    border-right: 1px solid #cbcbcb;
+	    padding-right: 3rem;
+	}
+
+}
