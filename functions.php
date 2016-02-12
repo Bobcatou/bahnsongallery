@@ -216,12 +216,12 @@ genesis_register_sidebar( array(
 
 // Enqueuing Equal heights jQuery for Content and Primary Sidebar (with Content-Sidebar as the default layout in Genesis settings)
 
-//add_action( 'wp_enqueue_scripts', 'sk_equal_heights' );
-//function sk_equal_heights() {
+add_action( 'wp_enqueue_scripts', 'sk_equal_heights' );
+function sk_equal_heights() {
 
-//		wp_enqueue_script( 'equalheights_script', get_stylesheet_directory_uri() . '/js/equal-heights.js', array('jquery'), '1.0.0' );
+		wp_enqueue_script( 'equalheights_script', get_stylesheet_directory_uri() . '/js/equal-heights.js', array('jquery'), '1.0.0' );
 
-//}
+}
 
 
 //* Temp fix for version of the style.css on the livesite where changes wouldn't show.
