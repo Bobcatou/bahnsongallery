@@ -1141,6 +1141,7 @@ section#black-studio-tinymce-10 p {
 	position: relative;
 	width: 200px;
 	word-wrap: break-word;
+	line-height: 1.5em;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
