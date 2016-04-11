@@ -1581,6 +1581,19 @@ h1.product_title.entry-title {
 
 .woocommerce a.button {padding: .618em .4em !important;}
 
+/*Featured Artwork*/
+.lwm_special_items .type-product {
+	min-height: 375px;
+}
+
+
+/*equals column heights*/
+.lwm_recent_products .type-product {
+    min-height: 391px;
+ 
+    }
+
+
 
 /* # Center Content titles under image in ALL multi display sections
 ---------------------------------------------------------------------------------------------------- */
@@ -1624,6 +1637,9 @@ ul.products li{
 	font-size: 2.5em;
 	font-style: italic;
 }
+
+
+
 
 
 
