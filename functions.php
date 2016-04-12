@@ -159,7 +159,7 @@ function wcs_woo_remove_reviews_tab($tabs) {
 add_filter('woocommerce_empty_price_html', 'custom_call_for_price');
 
 function custom_call_for_price() {
-     return 'Call For Price';
+     return 'For Pricing</br>Call (850) 258-0498 ';
 }
 
 /**
@@ -233,3 +233,18 @@ function remove_cssjs_ver( $src ) {
 }
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 1000 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 1000 );
+
+
+//*Gets rid of Add to Cart Button
+
+//function remove_loop_button(){
+//remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
+//remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+//}
+//add_action('init','remove_loop_button');
+
+
+
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+
